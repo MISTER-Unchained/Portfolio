@@ -31,7 +31,7 @@
     },
     {
         "title" : "Dingen die ik nog wil leren (WIP):",
-        "body" : "-Meer Go(lang) leren. Ik ben al redelijk bekend met Gin (een high performance web framework) maar er zijn nog genoeg andere dingen te leren in Go. \n-React en/of vue.js leren. Dit zijn twee veel gebruikte front-end frameworks die enorm veel potentie hebben en ook veel use-cases. \n-Typescript, dit is een enorm mooie extentie van JS die alles een stuk sneller en makkelijker maakt om te debuggen.",
+        "body" : "-Meer Go(lang) leren. Ik ben al redelijk bekend met Gin (een high performance web framework) maar er zijn nog genoeg andere dingen te leren in Go. <br>-React en/of vue.js leren. Dit zijn twee veel gebruikte front-end frameworks die enorm veel potentie hebben en ook veel use-cases. <br>-Typescript, dit is een enorm mooie extentie van JS die alles een stuk sneller en makkelijker maakt om te debuggen.",
         "link" : "https://unchainedmedia.nl"
     }
 ]
