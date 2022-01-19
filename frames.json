@@ -7,7 +7,7 @@
     {
         "title" : "Deze website",
         "body" : "Deze site compleet zonder frameworks gemaakt. Het is allemaal vanilla HTML5 en CSS3 met een klein beetje Javascript (om deze 'frames' te laden vanuit een json file). Daarnaast is de backend een heel simpele nginx static file server in een Docker container. Dit verander ik later wellicht naar een Go-Gin server aangezien deze een kleinere memory footprint heeft. Echter werkt dit voor nu nog perfect.",
-        "link" : "https://unchainedmedia.nl"
+        "link" : "https://github.com/MISTER-Unchained/Portfolio"
     },
     {
         "title" : "TCP-video transmissie",
