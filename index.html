@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Unchained media</title>
+    <link href="./style.css" rel="stylesheet" http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<body>
+    <div id="divide">
+        <div class="main" id="left">
+            <h1>Over mij.</h1>
+            <div class="scroll">
+                <div id="wiebenik">
+                    <h2>Wie ben ik?</h2>
+                    <p>
+                        Ik ben Django Fakkeldij. Ik ben op dit moment 17 jaar oud en ik woon in Ede. In Ede zit ik op het
+                        Pallas Athene College in 5VWO.
+                        <br>
+                        <br>
+                        Twee jaar geleden ben ik begonnen met het leren van Python, hier ben ik inmiddels al erg bekend mee
+                        (vooral Flask en andere I/O gerelateerde modules en features).
+                        Wel ben ik een stuk breder geïnteresseerd inmiddes.
+                        Zo ben ik op het moment veel bezig c# voor gamedevelopment in Unity, ben ik begonnen met het leren
+                        van Go(lang) voor high performance backend servers en kan ik al aardig wat front-end development met
+                        HTML5, CSS3 en Javascript.
+                        Ook ben ik redelijk bekend met Docker en Nginx.
+                        Daarnaast heb ik een brede kennis als het gaat om hardware en werk ik zowel in windows als linux
+                        (Ubuntu server & Linux Mint).
+                        <br>
+                        <br>
+                        Echter ben ik altijd al erg leergierig geweest en sta ik altijd open om zowel oude als nieuwe dingen
+                        te leren!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main" id="right">
+            <h1 id="portfolio">Portfolio.</h1>
+            <div id="projects">
+            </div>
+            <script>
+                const cURL = document.location.href;
+
+                function getData(tURL) {
+                    var xmlHttp = new XMLHttpRequest();
+                    xmlHttp.open("GET", tURL, false);
+                    xmlHttp.send(null);
+                    return xmlHttp.responseText;
+                }
+
+                let data = JSON.parse(getData(cURL + "/frames.json"));
+                let template = getData(cURL + "/template.html");
+                let totalbody = "";
+                data.forEach((v, i) => {
+                    let newDoc = template;
+                    newDoc = newDoc.replace("{{title}}", v.title);
+                    newDoc = newDoc.replace("{{body}}", v.body);
+                    newDoc = newDoc.replace("{{link}}", v.link);
+                    totalbody += "\n" + newDoc + "\n";
+                });
+                document.getElementById("projects").innerHTML = totalbody;
+
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
