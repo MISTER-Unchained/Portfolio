@@ -14,7 +14,6 @@ body {
 
 h1 {
     text-align: center;
-    padding: 1em;
     font-style: italic;
 }
 
@@ -80,16 +79,35 @@ p {
     }
 }
 
+#overmij {
+    padding: 1em 1em 0.5em 1em;
+    margin-bottom: 0em;
+}
 
+#icon-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    padding: 0.5em 0.6em 0.5em 0.6em;
+    width: 2.5em;
+    height: 2.5em;
+    fill: #ffffff;
+}
 
 
 #wiebenik {
     max-height: 100%;
     margin: 3em;
+    margin-top: 2em;
 }
 
 
 #portfolio {
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
     margin-bottom: 0;
 }
 
