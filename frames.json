@@ -1,13 +1,18 @@
 [
     {
-        "title" : "Voorpagina generator",
-        "body" : "Dit project was op vraag van mijn school. Docenten waren namelijk erg veel tijd kwijt aan het maken van voorpagina's voor inhaaltoetsen. Dat moest namelijk per leerling en per klas. Zo kon een docent wel 2 uur bezig zijn voor 30 leerlingen. Deze tool leest een excel document grotendeels procedural uit en genereert alle voorpagina's automatisch d.m.v. Python. Hij is redelijk ge-optimaliseerd en kan ruim 100 voorpagina's genereren (Hij kan wel meer aan maar dit is een ingestelde limiet).",
-        "link" : "https://demo-voorpagina-generator.admin.unchainedmedia.nl"
+        "title" : "Go(lang) Gin server (WIP)",
+        "body" : "Dit project was vooral bedoeld om een beetje bekend te worden met Go. Dit is goed gelukt. Zo leest Go nu een json file uit waar een aantal routes en static file directories staan en served ze direct m.b.v. Gin. Dit maakt het bijna net zo makkelijk, als niet makkelijker dan nginx, om static files te serven. Daarnaast is het ook nog enorm snel!",
+        "link" : "https://github.com/MISTER-Unchained/JSON-GO-WEBSERVER"
     },
     {
         "title" : "Deze website",
-        "body" : "Deze site compleet zonder frameworks gemaakt. Het is allemaal vanilla HTML5 en CSS3 met een klein beetje Javascript (om deze 'frames' te laden vanuit een json file). Daarnaast is de backend een heel simpele nginx static file server in een Docker container. Dit verander ik later wellicht naar een Go-Gin server aangezien deze een kleinere memory footprint heeft. Echter werkt dit voor nu nog perfect.",
+        "body" : "Deze site is compleet zonder frameworks gemaakt. Het is allemaal vanilla HTML5 en CSS3 met een klein beetje Javascript (om deze 'frames' te laden vanuit een json file). Daarnaast is de backend een heel simpele nginx static file server in een Docker container. Dit verander ik later wellicht naar een Go-Gin server aangezien deze een kleinere memory footprint heeft. Echter werkt dit voor nu nog perfect.",
         "link" : "https://github.com/MISTER-Unchained/Portfolio"
+    },
+    {
+        "title" : "Voorpagina generator",
+        "body" : "Dit project was op vraag van mijn school. Docenten waren namelijk erg veel tijd kwijt aan het maken van voorpagina's voor inhaaltoetsen. Dat moest namelijk per leerling en per klas. Zo kon een docent wel 2 uur bezig zijn voor 30 leerlingen. Deze tool leest een excel document grotendeels procedural uit en genereert alle voorpagina's automatisch d.m.v. Python. Hij is redelijk ge-optimaliseerd en kan ruim 100 voorpagina's genereren (Hij kan wel meer aan maar dit is een ingestelde limiet).",
+        "link" : "https://demo-voorpagina-generator.admin.unchainedmedia.nl"
     },
     {
         "title" : "TCP-video transmissie",
@@ -23,5 +28,10 @@
         "title" : "TCP multi connectie handler",
         "body" : "Dit was een niet al te lastig project maar toch erg handig. Zo heb ik in dit project een groot verschil ondervonden tussen Threading en Processing in Python. Hier was Threading duidelijk de betere optie aangezien er heel snel heel veel threads aangemaakt kunnen worden voor veel connecties, allemaal met hun eigen coroutine. Dit kan bijvoorbeeld gebruikt worden als een TCP-API.",
         "link" : "https://github.com/MISTER-Unchained/tcp-multi-client"
+    },
+    {
+        "title" : "Dingen die ik nog wil leren (WIP):",
+        "body" : "-Meer Go(lang) leren. Ik ben al redelijk bekend met Gin (een high performance web framework) maar er zijn nog genoeg andere dingen te leren in Go. \n-React en/of vue.js leren. Dit zijn twee veel gebruikte front-end frameworks die enorm veel potentie hebben en ook veel use-cases. \n-Typescript, dit is een enorm mooie extentie van JS die alles een stuk sneller en makkelijker maakt om te debuggen.",
+        "link" : "https://unchainedmedia.nl"
     }
 ]
