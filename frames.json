@@ -1,7 +1,12 @@
 [
     {
-        "title" : "Go(lang) Gin server (WIP)",
+        "title" : "Go(lang) Gin server",
         "body" : "Dit project was vooral bedoeld om een beetje bekend te worden met Go. Dit is goed gelukt. Zo leest Go nu een json file uit waar een aantal routes en static file directories staan en served ze direct m.b.v. Gin. Dit maakt het bijna net zo makkelijk, als niet makkelijker dan nginx, om static files te serven. Daarnaast is het ook nog enorm snel!",
+        "link" : "https://github.com/MISTER-Unchained/JSON-GO-WEBSERVER"
+    },
+    {
+        "title" : "Go(lang) Session based auth server",
+        "body" : "Dit project bouwt vooral bovenop de kennis die ik verkregen heb bij het leren van JWT, Oauth en basic authentication. Deze server is bedoeld als ultra lightweight, simpele webserver met session based authentication. Ook kunnen users eigen files hebben. Er zit geen database aanvast en alle sessions en users worden gecached in memory. Het is dan natuurlijk ook alleen bedoeld voor een site met niet meer dan 100 users tegelijk :D. Echter is het wel enorm snel juist omdat alles in memory 'leeft'. ",
         "link" : "https://github.com/MISTER-Unchained/JSON-GO-WEBSERVER"
     },
     {
