@@ -7,7 +7,7 @@
     {
         "title" : "Go(lang) Session based auth server",
         "body" : "Dit project bouwt vooral bovenop de kennis die ik verkregen heb bij het leren van JWT, Oauth en basic authentication. Deze server is bedoeld als ultra lightweight, simpele webserver met session based authentication. Ook kunnen users eigen files hebben. Er zit geen database aanvast en alle sessions en users worden gecached in memory. Het is dan natuurlijk ook alleen bedoeld voor een site met niet meer dan 100 users tegelijk :D. Echter is het wel enorm snel juist omdat alles in memory 'leeft'. ",
-        "link" : "https://github.com/MISTER-Unchained/JSON-GO-WEBSERVER"
+        "link" : "https://github.com/MISTER-Unchained/golang-session-auth"
     },
     {
         "title" : "Deze website",
