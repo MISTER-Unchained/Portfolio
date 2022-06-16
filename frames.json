@@ -1,12 +1,12 @@
 [
     {
         "title" : "Go(lang) Gin server",
-        "body" : "Dit project was vooral bedoeld om een beetje bekend te worden met Go. Dit is goed gelukt. Zo leest Go nu een json file uit waar een aantal routes en static file directories staan en served ze direct m.b.v. Gin. Dit maakt het bijna net zo makkelijk, als niet makkelijker dan nginx, om static files te serven. Daarnaast is het ook nog enorm snel!",
+        "body" : "Dit project was vooral bedoeld om een beetje bekend te worden met Go. Dit is goed gelukt. Zo leest Go nu een json file uit waar een aantal routes en static file directories staan en served ze direct m.b.v. Gin. Dit maakt het bijna net zo makkelijk, als niet makkelijker dan nginx, om static files te serven. Daarnaast is het ook nog enorm snel en lightweight!",
         "link" : "https://github.com/MISTER-Unchained/JSON-GO-WEBSERVER"
     },
     {
         "title" : "Go(lang) Session based auth server",
-        "body" : "Dit project bouwt vooral bovenop de kennis die ik verkregen heb bij het leren van JWT, Oauth en basic authentication. Deze server is bedoeld als ultra lightweight, simpele webserver met session based authentication. Ook kunnen users eigen files hebben. Er zit geen database aanvast en alle sessions en users worden gecached in memory. Het is dan natuurlijk ook alleen bedoeld voor een site met niet meer dan 100 users tegelijk :D. Echter is het wel enorm snel juist omdat alles in memory 'leeft'. ",
+        "body" : "Dit project bouwt vooral bovenop de kennis die ik verkregen heb bij het leren van JWT, Oauth en basic authentication. Deze server is bedoeld als ultra lightweight, simpele webserver met session based authentication. Ook kunnen users eigen files hebben. Er zit geen database aanvast en alle sessions en users worden gecached in memory. Het is dan natuurlijk ook alleen bedoeld voor een site met niet meer dan 100 users tegelijk :D. Echter is het wel enorm snel juist omdat alles in memory 'leeft'. De performance tot nu toe: O(log(n)) ",
         "link" : "https://github.com/MISTER-Unchained/golang-session-auth"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "title" : "TCP-video transmissie",
-        "body" : "Hier heb ik in Python een systeem geschreven dat video over TCP stuurt. Dit was als deel van mijn Profiel werkstuk. Het was hierbij belangrijk dat alle frames van de video aankwamen en ook in volle resolutie. De frame-rate maakte hierbij niet zoveel uit. Het was niet heel erg snel aangezien het in Python geschreven is maar snel genoeg om op een RPI-3 te runnen als client.",
+        "body" : "Hier heb ik in Python een systeem geschreven dat video over TCP stuurt. Dit was als deel van mijn Profiel werkstuk. Het was hierbij belangrijk dat alle frames van de video aankwamen en ook in volle resolutie. De frame-rate maakte hierbij niet zoveel uit. Het was niet heel erg snel aangezien het in Python geschreven is. Daarentegen snel genoeg om op een RPI-3 te runnen als client.",
         "link" : "https://github.com/MISTER-Unchained/TCP-video-connection"
     },
     {
@@ -31,12 +31,12 @@
     },
     {
         "title" : "TCP multi connectie handler",
-        "body" : "Dit was een niet al te lastig project maar toch erg handig. Zo heb ik in dit project een groot verschil ondervonden tussen Threading en Processing in Python. Hier was Threading duidelijk de betere optie aangezien er heel snel heel veel threads aangemaakt kunnen worden voor veel connecties, allemaal met hun eigen coroutine. Dit kan bijvoorbeeld gebruikt worden als een TCP-API.",
+        "body" : "Dit was een niet al te lastig project maar toch erg handig. Zo heb ik in dit project een groot verschil ondervonden tussen Threading en Processing in Python. Hier was Threading duidelijk de betere optie aangezien er heel snel, heel veel threads aangemaakt kunnen worden voor veel connecties, allemaal met hun eigen coroutine. Dit kan bijvoorbeeld gebruikt worden als een TCP-API.",
         "link" : "https://github.com/MISTER-Unchained/tcp-multi-client"
     },
     {
         "title" : "Dingen die ik nog wil leren (WIP):",
-        "body" : "-Meer Go(lang) leren. Ik ben al redelijk bekend met Gin (een high performance web framework) maar er zijn nog genoeg andere dingen te leren in Go. <br>-React en/of vue.js leren. Dit zijn twee veel gebruikte front-end frameworks die enorm veel potentie hebben en ook veel use-cases. <br>-Typescript, dit is een enorm mooie extentie van JS die alles een stuk sneller en makkelijker maakt om te debuggen.",
+        "body" : "-Meer Go(lang) leren. Ik ben al redelijk bekend met Gin (een high performance web framework) maar er zijn nog genoeg andere dingen te leren in Go. <br>-Vue.js leren. Dit is een gebruikte front-end framework die erg handig is voor front-end development. <br>-Typescript, dit is een enorm mooie extentie van JS die alles een stuk sneller en makkelijker maakt om te debuggen.",
         "link" : "https://unchainedmedia.nl"
     }
 ]
